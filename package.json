@@ -1,0 +1,19 @@
+{
+  "name": "chirper",
+  "version": "0.0.1",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "mocha server/serverTests"
+  },
+  "author": "Platypi",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "request": "^2.34.0",
+    "chai": "^1.9.0"
+  }
+}
