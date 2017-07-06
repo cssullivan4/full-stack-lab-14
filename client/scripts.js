@@ -18,7 +18,7 @@ function postChirp() {
     $.ajax({
         method: 'POST',
         url: '/api/chirps',
-        contentType: 'applications/json',
+        contentType: 'application/json',
         data: JSON.stringify(chirp)
     }).then(function (success) {
         $chirpField.val('');
